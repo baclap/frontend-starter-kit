@@ -14,3 +14,5 @@ Basic starter kit to get up and running quickly with ES6 JavaScript, LESS, and a
 - http://localhost:3000
 
 The starter kit comes with a bare minimum example just to demonstrate the file structure. Certain aspects of the structure can be changed by changing the `config.js` file.
+
+To build your production ready JS/CSS run `gulp build`. This will minify the code and exclude the sourcemaps added while in development. The production ready code will be placed in the directory defined in the `config.js` file.
