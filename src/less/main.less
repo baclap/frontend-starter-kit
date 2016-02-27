@@ -1,0 +1,20 @@
+// It's recommended that you sensibly separate your LESS into multiple files.
+// Then import them all here in the proper order. For example you could have a
+// reset.less, a layout.less, a base.less, and a colors.less (which is in a
+// "mixins" directory). Then you could import them all like so:
+// @import './mixins/colors';
+// @import './reset';
+// @import './layout';
+// @import './base';
+
+@npm-red: #CB3837;
+
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 100px auto;
+}
+
+h1 {
+  color: @npm-red;
+}
